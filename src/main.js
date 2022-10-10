@@ -3,7 +3,7 @@ import { LIB_NAME } from "./configs/subApp";
 import { libReady, isSubApp } from "hel-lib-proxy";
 
 try {
-  if (Vue.config) {
+  if (Vue && Vue.config) {
     Vue.config.productionTip = false;
   }
 } catch (error) {
