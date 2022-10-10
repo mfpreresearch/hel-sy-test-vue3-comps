@@ -1,7 +1,7 @@
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('hel-lib-proxy')) :
   typeof define === 'function' && define.amd ? define(['exports', 'hel-lib-proxy'], factory) :
-  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global["hel-sy-test-vue2-comps"] = {}, global.helLibProxy));
+  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global["hel-sy-test-vue3-comps"] = {}, global.helLibProxy));
 })(this, (function (exports, helLibProxy) { 'use strict';
 
   /*
@@ -12,7 +12,7 @@
   |--------------------------------------------------------------------------
   */
 
-  const LIB_NAME = 'hel-sy-test-vue2-comps';
+  const LIB_NAME = 'hel-sy-test-vue3-comps';
 
   /*
   |--------------------------------------------------------------------------
