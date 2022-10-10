@@ -6,9 +6,11 @@
 |--------------------------------------------------------------------------
 */
 import App from './App.vue';
+import App2 from './App.vue';
 import HelloWorld from './HelloWorld.vue';
 
 export default {
   App,
+  App2,
   HelloWorld,
 };
