@@ -15,6 +15,9 @@ export type CompTypes = {
   App: {
     name: string,
   },
+  App2: {
+    name: string,
+  },
   HelloWorld: {
     name: string,
   },
