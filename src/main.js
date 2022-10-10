@@ -1,16 +1,7 @@
-import * as Vue from "vue";
 import { LIB_NAME } from "./configs/subApp";
 import { libReady, isSubApp } from "hel-lib-proxy";
 
 console.log('remote main... abc ');
-
-try {
-  if (Vue && Vue.config) {
-    Vue.config.productionTip = false;
-  }
-} catch (error) {
-  console.warn(error);
-}
 
 (async function () {
   // const enableCustom = false;
