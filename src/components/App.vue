@@ -1,17 +1,17 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1>{{ name }}</h1>
     <div class="description">
-      我是远程 HelloWorld 组件
+      我是远程 App 组件
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'App',
   props: {
-    msg: String
+    name: String
   }
 }
 </script>
